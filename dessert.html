@@ -1,0 +1,278 @@
+<!-- 宣告HTML5文件 -->
+<!doctype html>
+<!-- 根元素 -->
+<html lang="zh-Hant-Tw">
+ <!-- 檔頭 -->
+<head>
+  <!-- 中繼標籤 ,網頁內容摘要,網頁內容的關鍵字與描述-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="星期八日料">
+    <meta name="description" content="星期八日料，提供許多日式道地小吃包含:日式鯛魚燒，日式糰子，かき氷刨冰，銅鑼燒，特調飲料，清酒梅酒">
+    <meta name="generator" content="Visual Studio Code v.1.83.1">
+    <meta name="keywords" content="星期八日料，日式點心，甜點類,日式鯛魚燒，日式糰子，かき氷刨冰，銅鑼燒，特調飲料，清酒，梅酒">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!-- 網站標籤 -->
+    <title>星期八日料-精緻料理</title>
+    <!-- bootstrapCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="custom.css">
+    <!-- GA追蹤分析 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L2JV9CJH66"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L2JV9CJH66');
+    </script>
+  </head>
+ <!-- 網頁本文 -->
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+          </a>
+          <a class="navbar-brand" href="#">星期八日料</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="delicacy.html">精緻料理</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="snack.html">道地小吃</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="dessert.html">日式點心</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">菜單價位</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="activity.html">活動資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-153948.url.tw" target="_blank">留言發問</a>
+              </li>
+            </ul>
+            <script async src="https://cse.google.com/cse.js?cx=a6f8b3133cea74b81">
+            </script>
+            <div class="gcse-search"></div>          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/a1ok.webp" class="d-block w-100" alt="日本街道" title="日本街道" aria-label="日本街道">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/a2ok.webp" class="d-block w-100" alt="日本店家" title="日本店家" aria-label="日本店家">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/a3ok.webp" class="d-block w-100" alt="內用座位" title="內用座位" aria-label="內用座位">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+      <div class="container">
+        <!-- role 屬性可變更標籤h2語意，若不需要改，可刪除 -->
+        <h2 class="alert alert-danger mt-5" role="alert">甜點類</h2>
+        <div class="row">
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/dessert/v1ok.webp" class="card-img-top" alt="日式鯛魚燒" title="日式鯛魚燒" aria-label="日式鯛魚燒">
+            <div class="card-body">
+              <h2 class="">日式鯛魚燒</h2>
+              <p class="card-text">經典的外形和美味的內餡深受顧客喜愛，外皮經過巧妙的烘烤，呈現出金黃酥脆的質感。這一層外皮的香氣，令人在品嚐前就被深深吸引。內餡方面，常見的有紅豆泥或奶油等多樣選擇。</p>
+              <p class="card-text">紅豆泥的香甜和奶油的滑順讓每一口都充滿濃郁的甜味。內餡巧妙地夾在酥脆的外皮之間，形成了完美的口感平衡，烹飪過程需要細緻的技藝，通常都以高度的專業來呈現這道料理。</p>
+              <p class="text-end"><a href="https://playing.ltn.com.tw/article/11817/1" class="btn btn-secondary" target="_blank" role="button">日式鯛魚燒</a></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/dessert/v2ok.webp" class="card-img-top" alt="日式糰子" title="日式糰子" aria-label="日式糰子">
+            <div class="card-body">
+            <h2 class="card-titl">日式糰子</h2>
+            <p class="card-text">糰子的主要成分是糯米，經過仔細洗淨、蒸煮，然後搓成球狀。這種製作方式保持了糯米的黏性和濃郁的風味，賦予糰子獨特的口感。在一些版本中，糰子的內餡可能包括甜豆沙、芋頭泥、草莓或其他水果，進一步豐富了口味的層次。</p>
+            <p class="card-text">特別值得一提的是日式糰子在櫻花季節，人們經常會品嚐到櫻花風味的糰子，這更是一種獨特的文化體驗。</p>
+            <p class="text-end"><a href="https://maruko.tw/mitarashi-dango.html
+            " class="btn btn-secondary" target="_blank" role="button">日式糰子</a></p>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br class="mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+           <div class="card">
+            <img src="images/dessert/v3ok.webp" class="card-img-top" alt="かき氷刨冰" title="かき氷刨冰" aria-label="かき氷刨冰">
+            <div class="card-body">
+              <h2 class="card-titl">かき氷刨冰</h2>
+              <p class="card-text">かき氷（刨冰）是日本夏季最受歡迎的清涼點心，以其綿密的雪花般質地和多種豐富的口味，使用泉水冰凍削細的碎冰淋上糖漿的一種冰甜食或做成番茄口味的冰，或加入煉乳、果醬各式各樣新鮮口味的刨冰。</p>
+              <p class="card-text">除了味道的創新，還經常被裝飾成各種可愛的造型，如動物、花朵等，使得這款涼爽的刨冰更加吸引眼球。是一道簡單卻令人難以抗拒的夏日美食，滿足了人們對清涼的渴望。</p>
+              <p class="text-end"><a href="https://kknews.cc/zh-tw/food/p9kq5z.html" class="btn btn-secondary" target="_blank" role="button">かき氷刨冰</a></p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/dessert/v44ok.webp" class="card-img-top" alt="銅鑼燒" title="銅鑼燒" aria-label="銅鑼燒">
+            <div class="card-body">
+            <h2 class="card-titl">銅鑼燒</h2>
+            <p class="card-text">金黃的半圓形狀，外皮酥脆，內餡方面，傳統的銅鑼燒內含紅豆泥，其甜蜜的香氣與外皮的酥脆形成和諧的味覺對比。此外，一些現代創意的版本中還包括了奶油、巧克力、栗子、草莓或冰淇淋等多樣的口味內餡選擇。</p>
+            <p class="card-text">製作銅鑼燒的過程需要巧妙地掌握火候和時間，以確保外皮達到完美的酥脆度，而內餡則保持豐富的口感。</p>
+            <p class="text-end"><a href="https://icook.tw/recipes/353172" class="btn btn-secondary" target="_blank" role="button">銅鑼燒</a></p>
+          </div>
+        </div>
+      </div>
+        </div>
+
+        <h2 class="alert alert-primary mt-5" role="alert">無酒精飲料類</h2>
+        <div class="row">
+          <div class="col-lg-6">
+           <div class="card">
+            <img src="images/dessert/j2ok.webp" class="card-img-top" alt="抹茶" title="抹茶" aria-label="抹茶">
+            <div class="card-body">
+              <h2 class="card-titl">抹茶</h2>
+              <p class="card-text">源自日本的綠茶粉，不僅是一種茶飲，更是一種擁有深厚歷史文化底蘊的飲品。這種獨特的茶粉由高品質的綠茶製成，具有濃郁的香氣、濃厚的質地和獨特的風味。</p>
+              <p class="card-text">抹茶的製作過程相當講究。高品質的綠茶葉經過精心栽培，新鮮嫩芽經過蒸氣烘焙後，被石磨細磨而成的綠茶粉。製作方式確保了抹茶的鮮度和香氣，抹茶所散發的特有的苦甜風味，讓人在一口中感受到茶葉的鮮香，伴隨著微苦的滋味，令人回味無窮。</p>
+              <p class="text-end"><a href="https://www.joyinkitchen.com/article/475" class="btn btn-secondary" target="_blank" role="button">抹茶</a></p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/dessert/j4.webp" class="card-img-top" alt="咖啡拿鐵" title="咖啡拿鐵" aria-label="咖啡拿鐵">
+            <div class="card-body">
+            <h2 class="card-titl">咖啡拿鐵</h2>
+            <p class="card-text">結新鮮研磨的咖啡豆，通常使用濃縮咖啡，使得咖啡本身擁有濃郁的香氣和深厚的風味。奶泡的製作對於咖啡拿鐵至關重要。優質的奶泡需要經過巧妙的蒸汽處理，形成綿密而豐富的奶香，使得整杯咖啡更加豐富且口感圓潤。</p>
+            <p class="card-text">咖啡拿鐵的獨特之處在於咖啡和奶的比例，這種均衡使得咖啡拿鐵不僅保留了咖啡的香醇濃郁，同時也融入了奶的滑順，使得整體味道更加柔和。</p>
+            <p class="text-end"><a href="https://www.hk01.com/%E9%96%8B%E7%BD%90/152590/latte%E5%92%8Ccappuccino%E6%9C%89%E4%BD%95%E5%88%86%E5%88%A5-%E6%84%9B%E5%96%9D%E5%92%96%E5%95%A1%E4%B8%80%E5%AE%9A%E8%A6%81%E6%87%824%E5%80%8B%E5%B0%8F%E7%9F%A5%E8%AD%98" class="btn btn-secondary" target="_blank" role="button">咖啡拿鐵</a></p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <br class="mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+           <div class="card">
+            <img src="images/dessert/j1ok.webp" class="card-img-top" alt="可樂" title="可樂" aria-label="可樂">
+            <div class="card-body">
+              <h2 class="card-titl">可樂</h2>
+              <p class="card-text">俗稱"快樂肥仔水"，是一款經典且受歡迎的汽泡飲料，。這款飲品以其独特的泡沫感、甜中帶微苦的口感和爽快的氣泡感成為飲料界的代表。</p>
+              <p class="card-text">可樂的特有泡沫感和微微的碳酸氣泡，使得這款飲料成為消暑的絕佳選擇，也是許多社交場合的共通飲品。在派對、聚會或休閒時光中，一罐肥仔水總能成為歡笑和輕鬆氛圍的夥伴。</p>
+              <p class="text-end"><a href="https://www.1shot.tw/9760/%E8%AA%BF%E9%85%92%E7%9F%A5%E8%AD%98-%E5%8F%AF%E6%A8%82%E8%AA%BF%E9%85%92%E5%A4%A7%E5%85%A8%EF%BC%81%E5%9C%A8%E5%AE%B6%E5%B0%B1%E5%8F%AF%E4%BB%A5%E8%BC%95%E9%AC%86%E5%BE%AE%E9%86%BA" class="btn btn-secondary" target="_blank" role="button">可樂</a></p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/dessert/j33ok.webp" class="card-img-top" alt="蘋果水梨汁" title="蘋果水梨汁" aria-label="蘋果水梨汁">
+            <div class="card-body">
+            <h2 class="card-titl">蘋果水梨汁</h2>
+            <p class="card-text">蘋果水梨汁，是一款清新爽口、自然甜美的飲料，將蘋果和水梨的獨特風味融合在一起豐富的營養價值和美味口感而廣受喜愛，成為了夏日中最受歡迎的解渴之選。</p>
+            <p class="card-text">蘋果水梨汁的製作過程追求自然和純淨。新鮮的蘋果和水梨經過嚴格挑選，去除果核和果皮，保留了果肉的精華。再經榨汁機慢慢擠壓，使得果汁濃郁而清澈，保留了水果的天然香甜。</p>
+            <p class="text-end"><a href="https://cookpad.com/tw/%E9%A3%9F%E8%AD%9C/11300609-%E6%B0%B4%E6%A2%A8%E8%98%8B%E6%9E%9C%E6%B1%81" class="btn btn-secondary" target="_blank" role="button">蘋果水梨汁</a></p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <h2 class="alert alert-success mt-5" role="alert">酒類</h2>
+        <div class="row">
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/dessert/t1ok.webp" class="card-img-top" alt="清酒" title="清酒" aria-label="清酒">
+            <div class="card-body">
+              <h2 class="card-titl">清酒</h2>
+              <p class="card-text">製作始於高品質的日本米，水和酵母。這三者結合，通過發酵過程，形成了清酒獨特的風味。尤其是 koji 菌的使用，使得清酒中充滿了濃郁的 umami（鮮味），賦予了酒體更加豐富的層次。</p>
+              <p class="card-text">清酒的風味多樣，包括了從乾燥、爽口到甜美、濃郁等各種口感。不同的清酒品種，如純米酒、吟釀、大吟釀等，帶有不同的香氣和風味，讓人能夠品味到多樣的日本文化和風土。</p>
+              <p class="text-end"><a href="https://esence.travel/essence-in-japan/sseishu-sake-introducing/" class="btn btn-secondary" target="_blank" role="button">清酒</a></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/dessert/t2ok.webp" class="card-img-top" alt="梅酒" title="梅酒涼麵" aria-label="梅酒">
+            <div class="card-body">
+            <h2 class="card-titl">梅酒</h2>
+            <p class="card-text">基礎是用日本梅子和糖浸泡在清酒或者烈酒中，經過長時間的陳釀。這個過程中，梅子的天然風味和甜味充分融入酒中，形成了濃郁而柔和的風味。這使得梅酒成為一款口感豐富、香氣撲鼻的美酒。</p>
+            <p class="card-text">單純的加冰品嚐，還是作為製作各式雞尾酒的基酒，都能展現其獨特的風格。搭配氣泡水或蘋果汁，打造清新的梅子汽酒，新鮮水果，製作梅酒奶昔，都是極具創意的調酒方式。</p>
+            <p class="text-end"><a href="https://www.winentaste.com/magazine/liqueur_plum_drinking_best" class="btn btn-secondary" target="_blank" role="button">梅酒</a></p>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br class="mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+           <div class="card">
+            <img src="images/dessert/t3ok.webp" class="card-img-top" alt="黑色俄羅斯" title="黑色俄羅斯" aria-label="黑色俄羅斯">
+            <div class="card-body">
+              <h2 class="card-titl">黑色俄羅斯</h2>
+              <p class="card-text">Black Russian（25%～30%）<br>基本成分包括優質的咖啡酒、伏特加和冰塊。這三者的完美平衡是這款雞尾酒成功的關鍵。咖啡酒為酒飲帶來豐富的咖啡香氣和深厚的風味，伏特加則賦予了整體口感的濃烈和醇厚。</p>
+              <p class="card-text">黑色俄羅斯的色澤深邃而典雅，呈現出濃郁的黑色調，彷彿散發出一種神秘的魅力。這使得這款雞尾酒不僅在味覺上令人滿足，也在視覺上帶來了極致的享受。</p>
+              <p class="text-end"><a href="https://www.1shot.tw/25649/%E8%AA%BF%E9%85%92%E7%9F%A5%E8%AD%98-%E9%BB%91%E8%89%B2%E4%BF%84%E7%BE%85%E6%96%AF-black-russian-%E7%99%BD%E8%89%B2%E4%BF%84%E7%BE%85%E6%96%AF-white-russian-%E8%B6%85%E7%B0%A1%E6%98%93%E5%A5%BD" class="btn btn-secondary" target="_blank" role="button">黑色俄羅斯</a></p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/dessert/t4ok.webp" class="card-img-top" alt="柯夢波丹" title="柯夢波丹" aria-label="柯夢波丹">
+            <div class="card-body">
+            <h2 class="card-titl">柯夢波丹</h2>
+            <p class="card-text">Cosmopolitan （10%~ 15%）<br>柯夢波丹的基本成分包括伏特加、澄酒、檸檬汁和蔓越莓汁，巧妙結合賦予了這款雞尾酒豐富的層次相互融合，形成了一種極具誘惑力的味道。</p>
+            <p class="card-text">醬柯夢波丹的色澤深邃、濃郁，如同深褐色的絲絨，給人一種奢華感。這種深沉的色澤不僅增添了視覺上的享受。</p>
+            <p class="text-end"><a href="https://www.1shot.tw/28387/%E8%AA%BF%E9%85%92%E7%9F%A5%E8%AD%98-%E6%9F%AF%E5%A4%A2%E6%B3%A2%E4%B8%B9-cosmopolitan-%E5%A4%96%E5%9C%A8%E7%B2%89%E5%AB%A9%E9%85%92%E6%84%9F%E5%BC%B7%E7%83%88%E7%9A%84%E7%B6%93%E5%85%B8" class="btn btn-secondary" target="_blank" role="button">柯夢波丹</a></p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <hr class="mt-5">
+      </div>
+      <footer class="container">
+        <a href="https://www.facebook.com/profile.php?id=100003474014683&mibextid=LQQJ4d" class="text-white hover:text-gold mx-4"target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 137" height="20px" class="fill-current h-4">
+        <path d="M120.74 0H16.26A16.26 16.26 0 0 0 0 16.26v104.48A16.26 16.26 0 0 0 16.26 137h56.82V84.21H55.45v-21h17.63v-16.4A27.84 27.84 0 0 1 100.89 19h15v21.92h-15A5.89 5.89 0 0 0 95 46.81V63.2h20.92l-3.29 21H95V137h25.74A16.26 16.26 0 0 0 137 120.74V16.26A16.26 16.26 0 0 0 120.74 0z"></path></svg></a> 
+          
+        <a href="" class="text-white hover:text-gold mx-4"target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.23 46.21" height="20px" class="fill-current h-4">
+        <path d="M40.29,0H5.93A6,6,0,0,0,0,5.91V40.29a5.94,5.94,0,0,0,5.93,5.91H40.29a5.94,5.94,0,0,0,5.93-5.91V5.93A6,6,0,0,0,40.29,0ZM33,7.26A1.76,1.76,0,0,1,34.77,5.5H39a1.76,1.76,0,0,1,1.76,1.76v4.2A1.76,1.76,0,0,1,39,13.22h-4.2A1.75,1.75,0,0,1,33,11.46V7.26Zm-9.9,6a9.9,9.9,0,1,1-9.9,9.9A9.9,9.9,0,0,1,23.11,13.22ZM41.85,40A1.83,1.83,0,0,1,40,41.81H6.25A1.83,1.83,0,0,1,4.41,40V19.79H9.17a14,14,0,0,0-.39,3.3,14.35,14.35,0,1,0,28.29-3.3h4.8l0,20.18h0Z"></path></svg></a>
+        <a target="_blank" rel="noopener" href="https://line.me/ti/p/vJWSCH_4h4" class="text-white hover:text-gold mx-4"target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.71 25.03" height="20px" class="fill-current">
+        <path d="M25.65 9.66v-.31-.23a9.8 9.8 0 0 0-2.59-4.92 12.75 12.75 0 0 0-5-3.28A15.11 15.11 0 0 0 12.84 0 14.77 14.77 0 0 0 6 1.66c-4 2.1-6.31 5.96-6 9.83A10.22 10.22 0 0 0 2.3 17a12.2 12.2 0 0 0 4.82 3.52 18.49 18.49 0 0 0 3.57 1h.15c.34.06.43.16.45.19a.39.39 0 0 1 0 .28 1.46 1.46 0 0 0-.05.2 4.08 4.08 0 0 0-.16 1.72A1.18 1.18 0 0 0 12.3 25a4.54 4.54 0 0 0 2-.77l.07-.05c1.26-.73 2.43-1.56 3.32-2.2a29 29 0 0 0 5.79-5 10 10 0 0 0 2.16-7.31M8 13.58H5.79a.61.61 0 0 1-.61-.58V8.32a.61.61 0 1 1 1.21 0v4H8a.61.61 0 0 1 0 1.21m2.32-.53a.61.61 0 1 1-1.21 0V8.3a.61.61 0 0 1 1.21 0zm5.48 0a.61.61 0 0 1-.42.58.57.57 0 0 1-.18 0 .6.6 0 0 1-.49-.25l-2.19-3V13a.61.61 0 1 1-1.21 0V8.44a.6.6 0 0 1 .42-.58.62.62 0 0 1 .68.22l2.18 3V8.3a.61.61 0 0 1 1.21 0zm4.43.51h-3a.6.6 0 0 1-.6-.61V8.21a.6.6 0 0 1 .6-.61h2.91a.61.61 0 1 1 0 1.21h-2.3v1.12h1.86a.61.61 0 1 1 0 1.21h-1.87v1.12h2.4a.61.61 0 0 1 0 1.21"></path></svg></a></div></div>
+    
+        <p class="text-end">星期八日料 &COPY;2023</p>
+       </footer>
+      </main>
+  <!-- bootstrapCSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

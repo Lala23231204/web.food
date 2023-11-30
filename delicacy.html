@@ -1,0 +1,230 @@
+<!-- 宣告HTML5文件 -->
+<!doctype html>
+<!-- 根元素 -->
+<html lang="zh-Hant-Tw">
+ <!-- 檔頭 -->
+<head>
+  <!-- 中繼標籤 ,網頁內容摘要,網頁內容的關鍵字與描述-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="星期八日料">
+    <meta name="description" content="星期八日料，提供許多精緻料理包含:鮭魚生魚片，鮭魚卵壽司，特選豚骨拉麵等等，歡迎大家前來品嘗。">
+    <meta name="generator" content="Visual Studio Code v.1.83.1">
+    <meta name="keywords" content="星期八日料，壽司，生魚片，拉麵，蕎麥麵，炸蝦，美食，日本料理，國外美食">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!-- 網站標籤 -->
+    <title>星期八日料-精緻料理</title>
+    <!-- bootstrapCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="custom.css">
+    <!-- GA追蹤分析 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L2JV9CJH66"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L2JV9CJH66');
+    </script>
+  </head>
+ <!-- 網頁本文 -->
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+          </a>
+          <a class="navbar-brand" href="#">星期八日料</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="delicacy.html">精緻料理</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="snack.html">道地小吃</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="dessert.html">日式點心</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">菜單價位</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="activity.html">活動資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-153948.url.tw" target="_blank">留言發問</a>
+              </li>
+            </ul>
+            <script async src="https://cse.google.com/cse.js?cx=a6f8b3133cea74b81">
+            </script>
+            <div class="gcse-search"></div>          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/a1ok.webp" class="d-block w-100" alt="日本街道" title="日本街道" aria-label="日本街道">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/a2ok.webp" class="d-block w-100" alt="日本店家" title="日本店家" aria-label="日本店家">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/a3ok.webp" class="d-block w-100" alt="內用座位" title="內用座位" aria-label="內用座位">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+      <div class="container">
+        <!-- role 屬性可變更標籤h2語意，若不需要改，可刪除 -->
+        <h2 class="alert alert-secondary mt-5" role="alert">生魚片類</h2>
+        <div class="row">
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/delicacy/e1ok.webp" class="card-img-top" alt="鮭魚生魚片" title="鮭魚生魚片" aria-label="鮭魚生魚片">
+            <div class="card-body">
+              <h2 class="">鮭魚生魚片</h2>
+              <p class="card-text">新鮮的鮭魚切成薄片，搭配一些芥末、醬油、和蔥等調味料。通常具有鮮美的口感和濃郁的鮭魚風味，肉質鮮嫩，脂肪分佈均勻，每一片都彷彿在口中融化，生魚片的質感帶有一絲絲的嚼勁。</p>
+              <p class="card-text">鮭魚的自然甜味在舌尖綻放，搭配清新的海洋氣息，成就了一道口感豐富、極具層次感的美食。淋上淡淡的醬油，讓整體味道更加完美。</p>
+              <p class="text-end"><a href="https://6-da5t7009.neocities.org/japan/sasimi" class="btn btn-secondary" target="_blank" role="button">鮭魚生魚片</a></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/delicacy/e2ok.webp" class="card-img-top" alt="鯛魚生魚片" title="鯛魚生魚片" aria-label="鯛魚生魚片">
+            <div class="card-body">
+            <h2 class="card-titl">鯛魚生魚片</h2>
+            <p class="card-text">鯛魚的發音與日語中的「吉祥」相近，因此也是宴席上的常見料理。鯛魚味道清淡，也十分鮮美。日本關西地區中有許多人喜歡的白色魚肉中就有鯛魚。</p>
+            <p class="card-text">鯛魚是一種上等的食用魚類，肉質細緻嫩滑且清淡，除了刺身之外，還可以採用紅燒、煨湯等方法烹飪。因發音與日語中的「吉祥」相似，也是宴席中的常見料理。</p>
+            <p class="text-end"><a href="https://6-da5t7009.neocities.org/japan/sasimi
+            " class="btn btn-secondary" target="_blank" role="button">鯛魚生魚片</a></p>
+          </div>
+        </div>
+        </div>
+        </div>
+        <h2 class="alert alert-primary mt-5" role="alert">壽司類</h2>
+        <div class="row">
+          <div class="col-lg-6">
+           <div class="card">
+            <img src="images/delicacy/e3ok.webp" class="card-img-top" alt="鮭魚卵壽司" title="鮭魚卵壽司" aria-label="鮭魚卵壽司">
+            <div class="card-body">
+              <h2 class="card-titl">鮭魚卵壽司</h2>
+              <p class="card-text">豐富的口感和獨特的風味成為美食中的明星。鮭魚卵在口中竟發出小小的脆爽感，彷彿是海洋的小珠，每一顆都充滿了海鮮的風味。</p>
+              <p class="card-text">壽司飯緊實而香醇，與鮭魚卵相得益彰。整體口感既有層次又豐富，配合醬油的微酸和芥末的一絲辛香，構成一場味覺的盛宴。</p>
+              <p class="text-end"><a href="https://cookpad.com/tw/%E9%A3%9F%E8%AD%9C/14699615-%E9%AE%AD%E9%AD%9A%E5%8D%B5%E5%A3%BD%E5%8F%B8?ref=search&search_term=%E9%AE%AD%E9%AD%9A%E5%8D%B5" class="btn btn-secondary" target="_blank" role="button">鮭魚卵壽司</a></p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/delicacy/e4ok.webp" class="card-img-top" alt="炸蝦壽司" title="炸蝦壽司" aria-label="炸蝦壽司">
+            <div class="card-body">
+            <h2 class="card-titl">炸蝦壽司</h2>
+            <p class="card-text">結合了脆爽和鮮嫩的口感，外層炸得酥脆，帶有淡淡的金黃色澤，蝦肉經過炸製後依然保持多汁，口感鮮美。</p>
+            <p class="card-text">壽司飯糅合了米飯的香氣和炸蝦的鮮味，搭配醬油和芥末，味道豐富而均衡。炸蝦壽司不僅視覺上吸引，更有獨特的口感和風味。</p>
+            <p class="text-end"><a href="https://caty2514.pixnet.net/blog/post/349590811-%E7%82%B8%E8%9D%A6%E5%A4%A9%E5%A9%A6%E7%BE%85%E5%A3%BD%E5%8F%B8%E6%8D%B2
+            " class="btn btn-secondary" target="_blank" role="button">炸蝦壽司</a></p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <h2 class="alert alert-success mt-5" role="alert">麵類</h2>
+        <div class="row">
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/delicacy/e5ok.webp" class="card-img-top" alt="特選豚骨拉麵" title="特選豚骨拉麵" aria-label="特選豚骨拉麵">
+            <div class="card-body">
+              <h2 class="card-titl">特選豚骨拉麵</h2>
+              <p class="card-text">濃郁的豚骨湯底和獨特的口感而著稱。湯底經過長時間熬製，呈現濃郁的豚骨風味。拉麵麵條Q彈有嚼勁，入口即化。</p>
+              <p class="card-text">肉片嫩滑多汁，融合湯汁的美味，配菜如青蔥和海苔增添層次感，每一口都帶來濃郁的豚骨滋味。</p>
+              <p class="text-end"><a href="https://cookpad.com/tw/%E9%A3%9F%E8%AD%9C/15977868-%E8%B1%9A%E9%AA%A8%E6%8B%89%E9%BA%B5" class="btn btn-secondary" target="_blank" role="button">特選豚骨拉麵</a></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/delicacy/e6okk.webp" class="card-img-top" alt="日式蕎麥麵涼麵" title="日式蕎麥麵涼麵" aria-label="日式蕎麥麵涼麵">
+            <div class="card-body">
+            <h2 class="card-titl">日式蕎麥麵涼麵</h2>
+            <p class="card-text">特有的口感和營養價值而脫穎而出。質地細膩滑順，帶有微嚼勁，有獨特的香氣和濃郁的蕎麥風味加上淡淡的堅果香氣，令人回味。</p>
+            <p class="card-text">其低脂肪、高蛋白的特點，使其成為健康養生的首選。不論是冷製涼麵還是熱湯麵，蕎麥麵都能為味蕾帶來美好的享受。</p>
+            <p class="text-end"><a href="https://icook.tw/recipes/440640" class="btn btn-secondary" target="_blank" role="button">日式蕎麥麵涼麵</a></p>
+          </div>
+        </div>
+        </div>
+        </div>
+        <h2 class="alert alert-warning mt-5" role="alert">下酒菜類</h2>
+        <div class="row">
+          <div class="col-lg-6">
+           <div class="card">
+            <img src="images/delicacy/e7ok.webp" class="card-img-top" alt="椒鹽松阪豬" title="椒鹽松阪豬" aria-label="椒鹽松阪豬">
+            <div class="card-body">
+              <h2 class="card-titl">椒鹽松阪豬</h2>
+              <p class="card-text">松阪豬肉的嫩滑和椒鹽的香辣風味，肉質鮮嫩，外皮酥脆，椒鹽調味豐富。</p>
+              <p class="card-text">松阪豬的油花均勻分佈，使得口感更加豐富，椒鹽的微辣和鹹味恰到好處，呈現出美味的平衡使整體口感更為豐富飽滿。</p>
+              <p class="text-end"><a href="https://icook.tw/recipes/286556" class="btn btn-secondary" target="_blank" role="button">椒鹽松阪豬</a></p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/delicacy/e8ok.webp" class="card-img-top" alt="蒜香檸檬烤中卷" 
+            title="蒜香檸檬烤中卷" aria-label="蒜香檸檬烤中卷">
+            <div class="card-body">
+            <h2 class="card-titl">蒜香檸檬烤中卷</h2>
+            <p class="card-text">濃厚的蒜香、清新的檸檬和嫩滑的中卷，每一口都帶有濃郁的蒜香，搭配檸檬的酸爽，中卷肉質細嫩多汁。</p>
+            <p class="card-text">烤製過程中，中卷外皮呈現微焦的香脆口感，內部保持了豐富的海鮮風味。整體融合了多層次的風味，是一道令人愛不釋手的美味佳餚。</p>
+            <p class="text-end"><a href="https://cookpad.com/tw/%E9%A3%9F%E8%AD%9C/16375607-%E8%92%9C%E5%91%B3%E8%9C%9C%E6%B1%81%E7%83%A4%E9%80%8F%E6%8A%BD?ref=search&search_term=%E8%92%9C%E9%A6%99%E4%B8%AD%E5%8D%B7
+            " class="btn btn-secondary" target="_blank" role="button">蒜香檸檬烤中卷</a></p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <hr class="mt-5">
+      </div>
+      <footer class="container">
+        <a href="https://www.facebook.com/profile.php?id=100003474014683&mibextid=LQQJ4d" class="text-white hover:text-gold mx-4"target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 137" height="20px" class="fill-current h-4">
+        <path d="M120.74 0H16.26A16.26 16.26 0 0 0 0 16.26v104.48A16.26 16.26 0 0 0 16.26 137h56.82V84.21H55.45v-21h17.63v-16.4A27.84 27.84 0 0 1 100.89 19h15v21.92h-15A5.89 5.89 0 0 0 95 46.81V63.2h20.92l-3.29 21H95V137h25.74A16.26 16.26 0 0 0 137 120.74V16.26A16.26 16.26 0 0 0 120.74 0z"></path></svg></a> 
+          
+        <a href="" class="text-white hover:text-gold mx-4"target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.23 46.21" height="20px" class="fill-current h-4">
+        <path d="M40.29,0H5.93A6,6,0,0,0,0,5.91V40.29a5.94,5.94,0,0,0,5.93,5.91H40.29a5.94,5.94,0,0,0,5.93-5.91V5.93A6,6,0,0,0,40.29,0ZM33,7.26A1.76,1.76,0,0,1,34.77,5.5H39a1.76,1.76,0,0,1,1.76,1.76v4.2A1.76,1.76,0,0,1,39,13.22h-4.2A1.75,1.75,0,0,1,33,11.46V7.26Zm-9.9,6a9.9,9.9,0,1,1-9.9,9.9A9.9,9.9,0,0,1,23.11,13.22ZM41.85,40A1.83,1.83,0,0,1,40,41.81H6.25A1.83,1.83,0,0,1,4.41,40V19.79H9.17a14,14,0,0,0-.39,3.3,14.35,14.35,0,1,0,28.29-3.3h4.8l0,20.18h0Z"></path></svg></a>
+        <a target="_blank" rel="noopener" href="https://line.me/ti/p/vJWSCH_4h4" class="text-white hover:text-gold mx-4"target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.71 25.03" height="20px" class="fill-current">
+        <path d="M25.65 9.66v-.31-.23a9.8 9.8 0 0 0-2.59-4.92 12.75 12.75 0 0 0-5-3.28A15.11 15.11 0 0 0 12.84 0 14.77 14.77 0 0 0 6 1.66c-4 2.1-6.31 5.96-6 9.83A10.22 10.22 0 0 0 2.3 17a12.2 12.2 0 0 0 4.82 3.52 18.49 18.49 0 0 0 3.57 1h.15c.34.06.43.16.45.19a.39.39 0 0 1 0 .28 1.46 1.46 0 0 0-.05.2 4.08 4.08 0 0 0-.16 1.72A1.18 1.18 0 0 0 12.3 25a4.54 4.54 0 0 0 2-.77l.07-.05c1.26-.73 2.43-1.56 3.32-2.2a29 29 0 0 0 5.79-5 10 10 0 0 0 2.16-7.31M8 13.58H5.79a.61.61 0 0 1-.61-.58V8.32a.61.61 0 1 1 1.21 0v4H8a.61.61 0 0 1 0 1.21m2.32-.53a.61.61 0 1 1-1.21 0V8.3a.61.61 0 0 1 1.21 0zm5.48 0a.61.61 0 0 1-.42.58.57.57 0 0 1-.18 0 .6.6 0 0 1-.49-.25l-2.19-3V13a.61.61 0 1 1-1.21 0V8.44a.6.6 0 0 1 .42-.58.62.62 0 0 1 .68.22l2.18 3V8.3a.61.61 0 0 1 1.21 0zm4.43.51h-3a.6.6 0 0 1-.6-.61V8.21a.6.6 0 0 1 .6-.61h2.91a.61.61 0 1 1 0 1.21h-2.3v1.12h1.86a.61.61 0 1 1 0 1.21h-1.87v1.12h2.4a.61.61 0 0 1 0 1.21"></path></svg></a></div></div>
+    
+        <p class="text-end">星期八日料 &COPY;2023</p>
+       </footer>
+      </main>
+  <!-- bootstrapCSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

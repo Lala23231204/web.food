@@ -1,0 +1,229 @@
+<!-- 宣告HTML5文件 -->
+<!doctype html>
+<!-- 根元素 -->
+<html lang="zh-Hant-Tw">
+ <!-- 檔頭 -->
+<head>
+  <!-- 中繼標籤 ,網頁內容摘要,網頁內容的關鍵字與描述-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="星期八日料">
+    <meta name="description" content="星期八日料，提供許多日式道地小吃包含:日式餃子，大阪燒，日式蒜香唐揚雞，醬燒蜜汁章魚燒，玉子燒，起司馬鈴薯煎餅，日式味噌炸豬排等等。">
+    <meta name="generator" content="Visual Studio Code v.1.83.1">
+    <meta name="keywords" content="星期八日料，日本美食，道地小吃，日式餃子，大阪燒，日式蒜香唐揚雞，醬燒蜜汁章魚燒，玉子燒，起司馬鈴薯煎餅，日式味噌炸豬排">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <!-- 網站標籤 -->
+    <title>星期八日料-道地小吃</title>
+    <!-- bootstrapCSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="custom.css">
+    <!-- GA追蹤分析 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L2JV9CJH66"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L2JV9CJH66');
+    </script>
+  </head>
+ <!-- 網頁本文 -->
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+          </a>
+          <a class="navbar-brand" href="#">星期八日料</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="delicacy.html">精緻料理</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="snack.html">道地小吃</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="dessert.html">日式點心</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">菜單價位</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="activity.html">活動資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-153948.url.tw" target="_blank">留言發問</a>
+              </li>
+            </ul>
+            <script async src="https://cse.google.com/cse.js?cx=a6f8b3133cea74b81">
+            </script>
+            <div class="gcse-search"></div>          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/a1ok.webp" class="d-block w-100" alt="日本街道" title="日本街道" aria-label="日本街道">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/a2ok.webp" class="d-block w-100" alt="日本店家" title="日本店家" aria-label="日本店家">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/a3ok.webp" class="d-block w-100" alt="內用座位" title="內用座位" aria-label="內用座位">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> 
+      <div class="container">
+        <!-- role 屬性可變更標籤h2語意，若不需要改，可刪除 -->
+        <h2 class="alert alert-success mt-5" role="alert">小吃類</h2>
+        <div class="row">
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/snack/g1ok.webp" class="card-img-top" alt="日式餃子" title="日式餃子" aria-label="日式餃子">
+            <div class="card-body">
+              <h2 class="card-titl">日式餃子</h2>
+              <p class="card-text">獨特的口感和豐富的風味俘虜了無數食客的味蕾。這款小巧玲瓏的道地小吃，外皮薄而柔軟，充滿嚼勁，一口咬下，清脆的感覺迅速轉化成豐富的湯汁，彷彿一場口感的饗宴。 </p>
+              <p class="card-text">內餡更是別樹一格，多樣的選擇令人眼花繚亂。有以豬肉和韭菜搭配而成的經典口味，豬肉的鮮美和韭菜的香氣交融。<br>搭配上淋上香氣四溢的餃子醬油，風味更加豐富。這份日式餃子的美味，既兼具傳統風味又不乏創新巧思，絕對是味蕾的享受。</p>
+              <p class="text-end"><a href="https://zenpop.jp/tw/blog/post/913/easy-japanese-gyoza-recipe-zh" class="btn btn-secondary" target="_blank" role="button">日式餃子</a></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/snack/g11ok.webp" class="card-img-top" alt="大阪燒" title="大阪燒" aria-label="大阪燒">
+            <div class="card-body">
+            <h2 class="card-titl">大阪燒</h2>
+            <p class="card-text">這美味的平底鍋料理以其特有的製作方式和濃郁的風味而聞名。本店大阪燒的特點之一是其外脆內嫩的口感，簡單的麵糊在燙熱的平底鍋上迅速烹飪，形成金黃酥脆的外層，內裹著豐富多樣的餡料。一口咬下，濃郁的肉汁與鮮嫩的海鮮交融。</p>
+            <p class="card-text">醬料更是獨具匠心，傳統的鰹魚醬油、沖繩黑糖和特製的辣椒醬混合而成的醬汁，為這道料理增色不少。淋上一些檸檬汁，清新的酸味能夠平衡出料理的豐富油脂，使整體更加美味。</p>
+            <p class="text-end"><a href="https://www.japaholic.com/tw/article/detail/316524-%E5%B1%B1%E5%B4%8E%E5%85%84%E5%A6%B9%E4%BE%86%E7%82%BA%E5%A4%A7%E5%AE%B6%E4%BB%8B%E7%B4%B9%E5%A4%A7%E9%98%AA%E5%B0%8F%E5%90%83%E7%BE%8E%E9%A3%9F%E4%BB%A3%E8%A1%A8%E3%80%8C%E3%81%8A%E5%A5%BD%E3%81%BF%E7%84%BC%E3%81%8D%EF%BC%8EOKONOMIYAKI%E3%80%8D
+            " class="btn btn-secondary" target="_blank" role="button">大阪燒</a></p>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br class="mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+           <div class="card">
+            <img src="images/snack/g2ok.webp" class="card-img-top" alt="日式蒜香唐揚雞" title="日式蒜香唐揚雞" aria-label="日式蒜香唐揚雞">
+            <div class="card-body">
+              <h2 class="card-titl">日式蒜香唐揚雞</h2>
+              <p class="card-text">鮮嫩的雞塊為主角，搭配濃郁的蒜香和香脆的外皮，勾勒出一幅令人垂涎的畫面。雞塊被裹上一層細緻的麵糊，經過油炸的過程，外皮金黃酥脆，內部卻保持了多汁的口感。這種獨特的製作方式使得唐揚雞的質地既有彈性又不失嫩滑，每一口都帶有滿滿的滿足感。</p>
+              <p class="card-text">大量的蒜末在炸至金黃香脆的同時，釋放出濃郁的香氣，與雞肉的鮮味相得益彰。這種蒜香味不僅令人著迷，加上醬汁的酸甜風味和微辣的味道，更為整道菜增添了一份獨特的風味。</p>
+              <p class="text-end"><a href="https://icook.tw/search/%E5%94%90%E6%8F%9A%E9%9B%9E/" class="btn btn-secondary" target="_blank" role="button">日式蒜香唐揚雞</a></p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/snack/g3ok.webp" class="card-img-top" alt="醬燒蜜汁章魚燒" title="醬燒蜜汁章魚燒" aria-label="醬燒蜜汁章魚燒">
+            <div class="card-body">
+            <h2 class="card-titl">醬燒蜜汁章魚燒</h2>
+            <p class="card-text">外形如小球般，金黃的外皮酥脆而帶有微微焦香章魚內餡，創新的變化也為這道料理注入新意，加入了芝士、海鮮或蔬菜，使得口味更加豐富多樣。充滿嚼勁的外層封裝著鮮嫩的章魚塊，獨特的外觀和質感使得醬燒蜜汁章魚燒在視覺和味覺上都極具吸引力。</p>
+            <p class="card-text">醬汁的精髓在於其獨特的配方，融合了醬油、蜂蜜和其他調味料，形成一種甜中帶鹹的滋味。香甜而多層次的醬汁瀰漫在章魚燒的每一個角落，使得每一口都充滿了濃厚的風味。</p>
+            <p class="text-end"><a href="https://icook.tw/recipes/370356" class="btn btn-secondary" target="_blank" role="button">醬燒蜜汁章魚燒</a></p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <br class="mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/snack/g4ok.webp" class="card-img-top" alt="明太子玉子燒" title="明太子玉子燒" aria-label="明太子玉子燒">
+            <div class="card-body">
+              <h2 class="card-titl">明太子玉子燒</h2>
+              <p class="card-text">金黃色的外皮鋪陳出明媚的色澤。切開一口，鬆軟的內層散發著濃郁的明太子香氣，是鹽醃辣椒魚卵的經典日式風味，其鹹香和微辣的滋味成為這道點心的靈魂。與之相搭配的玉子燒，是以鮮嫩的雞蛋為基礎，加入味道豐富的鰹魚高湯，烹製而成。兩者的完美結合，既有明太子的獨特風味，又有玉子燒的濃郁口感。</p>
+              <p class="card-text">這道料理的製作過程相當精巧，廚師們巧妙地調配材料，使得每一口都保持了平衡的口感和風味。</p>
+              <p class="text-end"><a href="https://icook.tw/recipes/173070" class="btn btn-secondary" target="_blank" role="button">明太子玉子燒</a></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/snack/g6ok.webp" class="card-img-top" alt="起司馬鈴薯煎餅" title="起司馬鈴薯煎餅" aria-label="起司馬鈴薯煎餅">
+            <div class="card-body">
+            <h2 class="card-titl">起司馬鈴薯煎餅</h2>
+            <p class="card-text">薯絲的香氣、起司的濃郁和酥脆的外皮巧妙地結合在一起。厚切的馬鈴薯絲經過炸至金黃酥脆的過程，散發著誘人的香氣，外脆內軟入口即化。薯絲的自然甜味和香濃的土豆風味相得益彰，為這道料理增色不少。</p>
+            <p class="card-text">起司則是這美味的關鍵所在。在炸至酥脆的馬鈴薯餅上，均勻撒上熔化的起司，濃郁的乳香與馬鈴薯的香氣交融，創造出一種令人難以抗拒的美味體驗。起司的奶香和馬鈴薯的濃郁口感形成完美的平衡。</p>
+            <p class="text-end"><a href="https://icook.tw/recipes/419035" class="btn btn-secondary" target="_blank" role="button">起司馬鈴薯煎餅</a></p>
+          </div>
+        </div>
+        </div>
+        </div>
+        <br class="mt-5">
+        <div class="row">
+          <div class="col-lg-6">
+           <div class="card">
+            <img src="images/snack/g5ok.webp" class="card-img-top" alt="日式味噌炸豬排" title="日式味噌炸豬排" aria-label="日式味噌炸豬排">
+            <div class="card-body">
+              <h2 class="card-titl">日式味噌炸豬排</h2>
+              <p class="card-text">松豬排被巧妙地處理，外層裹上一層金黃酥脆的麵糊，保證了每一口都有外脆內嫩的口感。這獨特的製作方式使得豬排保持了豐富的肉汁，不僅口感細膩，而且肉質鮮嫩。</p>
+              <p class="card-text">風味豐富的味噌醬汁是這道料理的靈魂。味噌的深沉、微甜的風味混合在一起，為豬排帶來層次豐富的滋味。醬汁中的調味料，如醬油、糖和酒，巧妙地平衡了整體風味，使得每一口都充滿著誘人的味道。</p>
+              <p class="text-end"><a href="https://icook.tw/recipes/384825" class="btn btn-secondary" target="_blank" role="button">日式味噌炸豬排</a></p>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="card">
+            <img src="images/snack/g7ok.webp" class="card-img-top" alt="海苔炸蝦仁飯糰" 
+            title="海苔炸蝦仁飯糰" aria-label="海苔炸蝦仁飯糰">
+            <div class="card-body">
+            <h2 class="card-titl">海苔炸蝦仁飯糰</h2>
+            <p class="card-text">新鮮的蝦仁經過精心處理，外層裹上薄薄的麵糊，再油炸至金黃酥脆。這一步使得蝦仁保持了豐富的肉汁，同時呈現出香脆的外皮。接著，這些香脆的蝦仁被巧妙地包裹在飯糰中，加入了糯米飯的綿密和黏性。</p>
+            <p class="card-text">獨具特色的是外層的海苔裹著飯糰，炸至酥脆。這一組合既保留了海苔的海洋風味，又在咬下時發出誘人的脆響，使得這道料理在視覺和聽覺上也帶來樂趣。</p>
+            <p class="text-end"><a href="https://cookpad.com/tw/%E9%A3%9F%E8%AD%9C/2089408-%E6%97%A5%E5%BC%8F%E6%B5%B7%E8%8B%94%E7%82%B8%E8%9D%A6%E4%BB%81%E9%A3%AF%E7%B3%B0?ref=search&search_term=%E6%97%A5%E5%BC%8F%E5%B0%8F%E5%90%83
+            " class="btn btn-secondary" target="_blank" role="button">海苔炸蝦仁飯糰</a></p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <hr class="mt-5">
+      </div>
+      <footer class="container">
+        <a href="https://www.facebook.com/profile.php?id=100003474014683&mibextid=LQQJ4d" class="text-white hover:text-gold mx-4"target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 137" height="20px" class="fill-current h-4">
+        <path d="M120.74 0H16.26A16.26 16.26 0 0 0 0 16.26v104.48A16.26 16.26 0 0 0 16.26 137h56.82V84.21H55.45v-21h17.63v-16.4A27.84 27.84 0 0 1 100.89 19h15v21.92h-15A5.89 5.89 0 0 0 95 46.81V63.2h20.92l-3.29 21H95V137h25.74A16.26 16.26 0 0 0 137 120.74V16.26A16.26 16.26 0 0 0 120.74 0z"></path></svg></a> 
+          
+        <a href="" class="text-white hover:text-gold mx-4"target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46.23 46.21" height="20px" class="fill-current h-4">
+        <path d="M40.29,0H5.93A6,6,0,0,0,0,5.91V40.29a5.94,5.94,0,0,0,5.93,5.91H40.29a5.94,5.94,0,0,0,5.93-5.91V5.93A6,6,0,0,0,40.29,0ZM33,7.26A1.76,1.76,0,0,1,34.77,5.5H39a1.76,1.76,0,0,1,1.76,1.76v4.2A1.76,1.76,0,0,1,39,13.22h-4.2A1.75,1.75,0,0,1,33,11.46V7.26Zm-9.9,6a9.9,9.9,0,1,1-9.9,9.9A9.9,9.9,0,0,1,23.11,13.22ZM41.85,40A1.83,1.83,0,0,1,40,41.81H6.25A1.83,1.83,0,0,1,4.41,40V19.79H9.17a14,14,0,0,0-.39,3.3,14.35,14.35,0,1,0,28.29-3.3h4.8l0,20.18h0Z"></path></svg></a>
+        <a target="_blank" rel="noopener" href="https://line.me/ti/p/vJWSCH_4h4" class="text-white hover:text-gold mx-4"target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.71 25.03" height="20px" class="fill-current">
+        <path d="M25.65 9.66v-.31-.23a9.8 9.8 0 0 0-2.59-4.92 12.75 12.75 0 0 0-5-3.28A15.11 15.11 0 0 0 12.84 0 14.77 14.77 0 0 0 6 1.66c-4 2.1-6.31 5.96-6 9.83A10.22 10.22 0 0 0 2.3 17a12.2 12.2 0 0 0 4.82 3.52 18.49 18.49 0 0 0 3.57 1h.15c.34.06.43.16.45.19a.39.39 0 0 1 0 .28 1.46 1.46 0 0 0-.05.2 4.08 4.08 0 0 0-.16 1.72A1.18 1.18 0 0 0 12.3 25a4.54 4.54 0 0 0 2-.77l.07-.05c1.26-.73 2.43-1.56 3.32-2.2a29 29 0 0 0 5.79-5 10 10 0 0 0 2.16-7.31M8 13.58H5.79a.61.61 0 0 1-.61-.58V8.32a.61.61 0 1 1 1.21 0v4H8a.61.61 0 0 1 0 1.21m2.32-.53a.61.61 0 1 1-1.21 0V8.3a.61.61 0 0 1 1.21 0zm5.48 0a.61.61 0 0 1-.42.58.57.57 0 0 1-.18 0 .6.6 0 0 1-.49-.25l-2.19-3V13a.61.61 0 1 1-1.21 0V8.44a.6.6 0 0 1 .42-.58.62.62 0 0 1 .68.22l2.18 3V8.3a.61.61 0 0 1 1.21 0zm4.43.51h-3a.6.6 0 0 1-.6-.61V8.21a.6.6 0 0 1 .6-.61h2.91a.61.61 0 1 1 0 1.21h-2.3v1.12h1.86a.61.61 0 1 1 0 1.21h-1.87v1.12h2.4a.61.61 0 0 1 0 1.21"></path></svg></a></div></div>
+    
+        <p class="text-end">星期八日料 &COPY;2023</p>
+       </footer>
+      </main>
+  <!-- bootstrapCSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
